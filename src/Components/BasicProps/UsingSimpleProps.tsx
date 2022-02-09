@@ -1,8 +1,10 @@
 import React from 'react'
 type GreetProps = {
-    stringProp: string
-    booleanProp_isLoggedIn: boolean
-    numberProps: number
+    stringProp?: string //optiona
+
+
+    booleanProp_isLoggedIn?: boolean
+    numberProps?: number
 }
 function UsingSimpleProps(props: GreetProps) {
     return (
