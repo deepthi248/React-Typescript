@@ -2,11 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import App_props from './App_props';
+import App_events from './App_events';
+import App_practice from './App_practice';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App_props />
+    <App_practice />
   </React.StrictMode>,
   document.getElementById('root')
 );
